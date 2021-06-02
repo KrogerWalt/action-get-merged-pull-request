@@ -10,6 +10,10 @@ outputs:
     description: The title of the pull request.
   body:
     description: The body of the pull request.
+  headBranch:
+    description: The name of branch that commits were merged from.
+  baseBranch:
+    description: The name of branch that commits were merged into.
   number:
     description: The number of the pull request.
   labels:
