@@ -26,6 +26,8 @@ async function run(): Promise<void> {
 
     core.setOutput('title', pull.title);
     core.setOutput('body', pull.body);
+    core.setOutput('headBranch', pull.headBranch);
+    core.setOutput('baseBranch', pull.baseBranch);
     core.setOutput('number', pull.number);
     core.setOutput('labels', pull.labels?.join('\n'));
     core.setOutput('assignees', pull.assignees?.join('\n'));

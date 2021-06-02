@@ -2193,6 +2193,8 @@ function run() {
             }
             core.setOutput('title', pull.title);
             core.setOutput('body', pull.body);
+            core.setOutput('headBranch', pull.headBranch);
+            core.setOutput('baseBranch', pull.baseBranch);
             core.setOutput('number', pull.number);
             core.setOutput('labels', (_a = pull.labels) === null || _a === void 0 ? void 0 : _a.join('\n'));
             core.setOutput('assignees', (_b = pull.assignees) === null || _b === void 0 ? void 0 : _b.join('\n'));
