@@ -30,27 +30,27 @@ For further details, see https://help.github.com/en/actions/reference/events-tha
 
 ## Outputs
 
-|    NAME     |                                              DESCRIPTION                                               |   TYPE   |
-| ----------- | ------------------------------------------------------------------------------------------------------ | -------- |
-| `title`     | The title of the pull request.                                                                         | `string` |
-| `body`      | The body of the pull request.                                                                          | `string` |
-| `number`    | The number of the pull request.                                                                        | `number` |
-| `labels`    | The list of labels for the pull request. Separated with line breaks if there're multiple labels.       | `string` |
-| `assignees` | The list of assignees for the pull request. Separated with line breaks if there're multiple assignees. | `string` |
+|     NAME     |                                              DESCRIPTION                                               |   TYPE   |
+| ------------ | ------------------------------------------------------------------------------------------------------ | -------- |
+| `title`      | The title of the pull request.                                                                         | `string` |
+| `body`       | The body of the pull request.                                                                          | `string` |
+| `headBranch` | The name of branch that commits were merged from.                                                      | `string` |
+| `baseBranch` | The name of branch that commits were merged into.                                                      | `string` |
+| `number`     | The number of the pull request.                                                                        | `number` |
+| `labels`     | The list of labels for the pull request. Separated with line breaks if there're multiple labels.       | `string` |
+| `assignees`  | The list of assignees for the pull request. Separated with line breaks if there're multiple assignees. | `string` |
 
 ## License
-
-Copyright 2020 The Actions Ecosystem Authors.
 
 Action Get Merged Pull Request is released under the [Apache License 2.0](./LICENSE).
 
 <!-- badge links -->
 
-[actions-workflow-test]: https://github.com/actions-ecosystem/action-get-merged-pull-request/actions?query=workflow%3ATest
-[actions-workflow-test-badge]: https://img.shields.io/github/workflow/status/actions-ecosystem/action-get-merged-pull-request/Test?label=Test&style=for-the-badge&logo=github
+[actions-workflow-test]: https://github.com/KrogerWalt/action-get-merged-pull-request/actions?query=workflow%3ATest
+[actions-workflow-test-badge]: https://img.shields.io/github/workflow/status/KrogerWalt/action-get-merged-pull-request/Test?label=Test&style=for-the-badge&logo=github
 
-[release]: https://github.com/actions-ecosystem/action-get-merged-pull-request/releases
-[release-badge]: https://img.shields.io/github/v/release/actions-ecosystem/action-get-merged-pull-request?style=for-the-badge&logo=github
+[release]: https://github.com/KrogerWalt/action-get-merged-pull-request/releases
+[release-badge]: https://img.shields.io/github/v/release/KrogerWalt/action-get-merged-pull-request?style=for-the-badge&logo=github
 
 [license]: LICENSE
-[license-badge]: https://img.shields.io/github/license/actions-ecosystem/action-get-merged-pull-request?style=for-the-badge
+[license-badge]: https://img.shields.io/github/license/KrogerWalt/action-get-merged-pull-request?style=for-the-badge
